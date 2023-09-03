@@ -12,7 +12,7 @@ The design looks like it was drawn by a child so let's analyze the source :
 ![2](images/2.png)
 
 We note that there are links , almost all of them useless because they are static html pages , except `/admin` \
-![3](/images/3.png)
+![3](./images/3.png)
 
 Intercepting the request with Burp we notice that there is a cookie with a JWT token (https://jwt.io/introduction) : \
 ```
