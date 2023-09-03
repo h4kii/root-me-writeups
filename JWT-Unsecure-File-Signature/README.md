@@ -6,7 +6,7 @@ Difficulty : MEDIUM \
 Links :  https://www.root-me.org/en/Challenges/Web-Server/JWT-Unsecure-File-Signature / http://challenge01.root-me.org:59081/
 
 Let's analyze the challenge  : 
-![](/images/1.png)
+![](/assets/images/images/1.png)
 
 The design looks like it was drawn by a child so let's analyze the source :
 ![](/images/2.png)
