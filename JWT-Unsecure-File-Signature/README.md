@@ -6,13 +6,13 @@ Difficulty : MEDIUM \
 Links :  https://www.root-me.org/en/Challenges/Web-Server/JWT-Unsecure-File-Signature / http://challenge01.root-me.org:59081/
 
 Let's analyze the challenge  : 
-![](/assets/images/images/1.png)
+![1](/assets/images/images/1.png)
 
 The design looks like it was drawn by a child so let's analyze the source :
-![](/images/2.png)
+![2](images/2.png)
 
 We note that there are links , almost all of them useless because they are static html pages , except `/admin` \
-![](/images/3.png)
+![3](/images/3.png)
 
 Intercepting the request with Burp we notice that there is a cookie with a JWT token (https://jwt.io/introduction) : \
 ```
